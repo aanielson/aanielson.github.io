@@ -1,0 +1,32 @@
+body {
+    background-image: url("../images/halftone-yellow.png");
+    background-repeat: repeat;
+}
+h1 {
+    font-family: 'Spicy Rice', cursive;
+    font-size: 95px;
+}
+h3 {
+    font-family: 'Spicy Rice', cursive;
+    font-size: 24px;
+}
+.intro {
+    display: block;
+    margin: auto;
+    width: 960px;
+    background-color: lavenderblush;
+    margin-top: 20px;
+    padding: 30px
+}
+.game {
+    display: block;
+    width: 960px;
+    margin: auto;
+    background-color: lavender;
+    min-height: 350px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+#score-display {
+    padding-top: 10px;
+}
