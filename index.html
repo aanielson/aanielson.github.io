@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link to reset styling-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!--Link to bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Link to personal styling-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--Link to google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=League+Script&family=Playfair+Display:wght@400;500;900&family=Raleway:ital,wght@0,200;0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <!--tab display-->
+    <title>Abigail Nielson - Full Stack</title>
+</head>
+<body>
+    <!--navbar to link to different portions of the same page-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <!--Nielson Logo?-->
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/designer-logo.png" width="150" height="40" alt="Abigail Nielson">
+            </a>
+            <!--Future code for responsive toggle-->
+            <!--
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                ====OR======
+                <div class="navbar-header">
+                    <button class="menu-toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Abigail Nielson</a>
+                </div>
+            -->
+            <ul class="nav justify-content-end">
+                <li class="nav-item"><a href="#home" class="active text-white nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="text-white nav-link">About</a></li>
+                <li class="nav-item"><a href="#resume" class="text-white nav-link">Resume</a></li>
+                <li class="nav-item"><a href="#portfolio" class="text-white nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#contact" class="text-white nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--==================End Navbar==================-->
+
+    <!--Initial section with image-->
+    <div id="home" class="grey-back">
+        <div class="main container">
+            <h1 class="text-white">Abigail Nielson</h1>
+            <h2 class="text-white">Full Stack Developer</h2>
+            <br>
+            <div class="my-btn">
+                <a href="#about" class="main-btn know-more">Know More</a>
+            </div>
+        </div>
+    </div>
+
+    <!--About me section with picture of me-->
+    <div id="about" class="black-back">
+        <div class="main container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6">
+                    <div class="about-image">
+                        <img class="img-responsive" src="./assets/images/profile.png" alt="profile" width="100%">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6"> 
+                    <div class="main-title">
+                        <h3 class="text-white">About Me</h3>
+                    </div>
+                    <!--This is where I'll fill in my story-->
+                    <div id="brand-statement">
+                        <p>Full stack web developer with graphic design and teaching experience. Strengths include collaboration, project management, and communication.</p>
+                        <p>Juggled teaching English, Creative Coding, and Aerobic Conditioning with a remote part-time graphic design position at a small homebuilding company. Produced excellent print and digital marketing materials by required production deadlines.</p>
+                        <p>I’m excited to apply my strong work ethic and ability to successfully manage competing priorities to a fast-paced, quality-driven web development team.</p>
+                    </div>
+                    <div class="skills-1">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <h5>Technical Skills</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3 col-xs-3 skills-xs">
+                                <div class="skills-inner">
+                                    <h4>Html5</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>CSS3</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>Javascript</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>JQuery</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-3 skills-xs">
+                                <div class="skills-inner">
+                                    <h4>Bootstrap</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>PHP</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>MySQL</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>Firebase</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-3 skills-xs">
+                                <div class="skills-inner">
+                                    <h4>NodeJs</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>MongoDB</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>Express</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>Handelbars.js</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-3 skills-xs">
+                                <div class="skills-inner">
+                                    <h4>Photoshop</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>Illustrator</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>InDesign</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>JSON</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="skills-2">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <h5>Technical Skills</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="skills-inner">
+                                    <h4>Html5</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>CSS3</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>Javascript</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>JQuery</h4>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="skills-inner">
+                                    <h4>Bootstrap</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>PHP</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>MySQL</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>Firebase</h4>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="skills-inner">
+                                    <h4>NodeJs</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>MongoDB</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>Express</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>Handelbars.js</h4>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="skills-inner">
+                                    <h4>Photoshop</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>Illustrator</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>InDesign</h4>
+                                </div>
+                                <div class="skills-inner">
+                                    <h4>JSON</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    
+    <!--resume section-->
+    <div id="resume" class="grey-back">
+        <div class="main container">
+            <h3 class="text-white">My Awesome Story</h3>
+            <div class="row">
+                <div class="col-lg-6 employment">
+                    <div class="experience h-50" id="bellago">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <div class="experience-intro">
+                                    <h6><i class="fa fa-suitcase"></i> Graphic Designer</h6>
+                                </div>
+                                <div class="experience-intro">
+                                    <h6>Bellago Homes</h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-5 justify-content-end">
+                                <div class="experience-details">
+                                    <div>
+                                        <h7>2017 – Present</h7>
+                                    </div>
+                                    <div>
+                                        <h7>Mesa, AZ</h7>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="experience-description">
+                                    <h8>Remote & part-time year-round with full-time summers</h8>
+                                    <ul>
+                                        <li>Utilize Adobe Suite to produce and revise marketing materials.</li>
+                                        <li>Evaluate the efficiency of all marketing materials.</li>
+                                    </ul>
+                                </div>
+                                <div class="experience-accomplishments">
+                                    <h8>Key Accomplishments:</h8>
+                                    <ul>
+                                        <li>Crafted floor plan, plat map, and price sheet brochures for 6 brand-new communities.</li>                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience h-50" id="teaching">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <div class="experience-intro">
+                                    <h6><i class="fa fa-suitcase"></i> Secondary Education Teacher</h6>
+                                </div>
+                                <div class="experience-intro">
+                                    <h6>Nebo School District </h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="experience-details">
+                                    <div class="experience-intro">
+                                        <h7>2018 – 2020</h7>
+                                    </div>
+                                    <div class="experience-intro">
+                                        <h7>Spanish Fork, UT</h7>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="experience-description">
+                                    <h8>7th grade English, Creative Coding, & Aerobic Conditioning</h8>
+                                    <ul>
+                                        <li>Collaborated with team teachers to produce and present standards based curriculum.</li>
+                                        <li>Assessed student proficiency in each subject.</li>
+                                    </ul>
+                                </div>
+                                <div class="experience-accomplishments">
+                                    <h8>Key Accomplishments:</h8>
+                                    <ul>
+                                        <li>Planned and taught 4 different subjects every day.</li>
+                                        <li>Founded a “Girls Who Code” club chapter.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 education">
+                    <div class="experience h-50" id="bootcamp">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <div class="experience-intro">
+                                    <h6><i class="fa fa-graduation-cap"></i> Bootcamp Certificate</h6>
+                                </div>
+                                <div class="experience-intro">
+                                    <h6>University of Utah</h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="experience-details">
+                                    <div class="experience-intro">
+                                        <h7>Feb 2020 – July 2020</h7>
+                                    </div>
+                                    <div class="experience-intro">
+                                        <h7>Live Interactive</h7>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="experience-description">
+                                    <ul>
+                                        <li>A 24-week intensive program focused on gaining technical programming skills.</li>
+                                        <li>Skills include HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.</li>
+                                        <li>Designated "Student Teaching Assistant."</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience h-50" id="byu">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <div class="experience-intro">
+                                    <h6><i class="fa fa-graduation-cap"></i> Bachelors Degree</h6>
+                                </div>
+                                <div class="experience-intro">
+                                    <h6>Brigham Young University</h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="experience-details">
+                                    <div class="experience-intro">
+                                        <h7>April 2019</h7>
+                                    </div>
+                                    <div class="experience-intro">
+                                        <h7>Provo, UT</h7>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="experience-description">
+                                    <h8>English Teaching Major</h8>
+                                    <ul>
+                                        <li>Earl and Bybee Scholarship Recipient.</li>
+                                        <li>Teacher's Assistant for Multicultural Education.</li>
+                                        <li>Student Teaching Internship with Diamond Fork Junior High.</li>
+                                    </ul>
+                                </div>
+                                <div class="experience-accomplishments">
+                                    <h8>Digital Humanities Minor</h8>
+                                    <ul>
+                                        <li>Became proficient in HTML, CSS, Javascript, PHP, and MySQL.</li>
+                                        <li>Gained proficiency in Adobe Suite.</li>
+                                        <li>"Schwa" Student Journal Graphic Design Manager.</li>
+                                        <li>Graphic Design Internship with Bellago Homes.</li>  
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <!--portfolio section with recent work-->
+    <div id="portfolio" class="black-back">
+        <div class="main container mb-5">
+            <h3 class="text-white">My Recent Works</h3>
+            <!--==================Portfolio Items Row 1==================-->
+            <div class="row">
+                <div class="col-md-4 portfolio-modal" data-toggle="modal" data-target="#myGroupProject1">
+                    <p class="item-title p-3 text-center">Hike & Forage</p>               
+                </div>
+                <div class="col-md-4 portfolio-modal" data-toggle="modal" data-target="#myBamazon">
+                    <p class="item-title p-3 text-center">Bamazon</p>               
+                </div>
+                <div class="col-md-4 portfolio-modal">
+                    <div data-toggle="modal" data-target="#myHangman">
+                        <p class="item-title p-3 text-center">Hangman</p>
+                    </div>
+                </div>     
+            </div>
+            <!--Portfolio Items Row 2-->
+            <div class="row">
+                <div class="col-md-4 portfolio-modal" data-toggle="modal" data-target="#myTrainScheduler">
+                    <p class="item-title p-3 text-center">Train Scheduler</p>               
+                </div>
+               <div class="col-md-4 portfolio-modal" data-toggle="modal" data-target="#myLiriBot">
+                    <p class="item-title p-3 text-center">LiriBot</p>               
+                </div>
+                <div class="col-md-4 portfolio-modal" data-toggle="modal" data-target="#myGifTastic">
+                    <p class="item-title p-3 text-center">GifTastic</p>               
+                </div>
+            </div>
+            <!--Portfolio Items Row 3-->
+            <div class="row">
+                
+                
+                <div class="col-md-4 portfolio-modal">
+                    <div data-toggle="modal" data-target="#myCrystals">
+                        <p class="item-title p-3 text-center">Crystals Game</p>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-modal" data-toggle="modal" data-target="#myTrivia">
+                    <p class="item-title p-3 text-center">Trivia Game</p>               
+                </div>
+            </div>       
+        </div>
+        <!--==================MODALS with project info==================-->
+        <div>  
+            <div class="row m-4">
+            <!--Hangman modal-->
+            <div id="myHangman" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <!--Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5>Hangman</h5>
+                        </div>
+                        <div class="modal-body">
+                            <p>This project is a word-guess game. This app runs in the browser, and features dynamically updated HTML and CSS powered by JavaScript.</p>
+                            <ul>
+                                <li>Javascript</li>
+                                <li>HTML5</li>
+                                <li>CSS</li>  
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <a class="text-secondary" href="https://github.com/aanielson/Word-Guess-Game">
+                                <i class="fa fa-github fa-3x"></i>
+                            </a>
+                            <a href="https://aanielson.github.io/Word-Guess-Game/index.html" class="project-link btn">Go to project!</a>
+                            <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Crystals Game Modal-->
+            <div id="myCrystals" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <!--Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5>Crystals Game</h5>
+                        </div>
+                        <div class="modal-body">
+                            <p>This project is a fun and interactive game for web browsers. It dynamically updates the HTML pages with the jQuery library.</p>
+                            <p>Here's how the game works:</p>
+                            <ol>
+                                <li>There will be four crystals displayed as buttons on the page. The player will be shown a random number at the start of the game.</li>
+                                <li>When the player clicks on a crystal, it will add a specific amount of points to the player's total score. The game hides this amount until the player clicks a crystal.</li>
+                                <li>When they do click a crystal, the player's score counter is updated.</li>
+                                <li>The player wins if their total score matches the random number from the beginning of the game. The player loses if their score goes above the random number.</li>
+                                <li>The game restarts whenever the player wins or loses, and the scoreboard is updated to reflect that.</li>
+                            </ol>
+                            <h9>Technologies Used</h9>
+                            <ul>
+                                <li>Javascript</li>
+                                <li>JQuery</li>
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>    
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <a class="text-secondary" href="https://github.com/aanielson/unit-4-game">
+                                <i class="fa fa-github fa-3x"></i>
+                            </a>
+                            <a href="https://aanielson.github.io/unit-4-game/index.html" class="project-link btn">Go to project!</a>
+                            <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Trivia Game Modal-->
+            <div id="myTrivia" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <!--Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5>Trivia Game</h5>
+                        </div>
+                        <div class="modal-body">
+                            <p>This project is a Pokémon trivia game using JavaScript for the logic and jQuery to manipulate HTML.</p>
+                            <h9>Technologies Used</h9>
+                            <ul>
+                                <li>Javascript</li>
+                                <li>JQuery</li>
+                                <li>Timers</li>
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>    
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <a class="text-secondary" href="https://github.com/aanielson/TriviaGame">
+                                <i class="fa fa-github fa-3x"></i>
+                            </a>
+                            <a href="https://aanielson.github.io/TriviaGame/" class="project-link btn">Go to project!</a>
+                            <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--GifTastic Modal-->
+            <div id="myGifTastic" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <!--Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5>GifTastic</h5>
+                        </div>
+                        <div class="modal-body">
+                            <p>This project used the GIPHY API to make a dynamic web page that populates with gifs of your choice.</p>
+                            <h9>Technologies Used</h9>
+                            <ul>
+                                <li>Javascript</li>
+                                <li>JQuery</li>
+                                <li>AJAX</li>
+                                <li>APIs</li>
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>    
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <a class="text-secondary" href="https://github.com/aanielson/GifTastic">
+                                <i class="fa fa-github fa-3x"></i>
+                            </a>
+                            <a href="https://aanielson.github.io/GifTastic/" class="project-link btn">Go to project!</a>
+                            <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Train Scheduler Modal-->
+            <div id="myTrainScheduler" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <!--Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5>Train Scheduler</h5>
+                        </div>
+                        <div class="modal-body">
+                            <p>This project showcases a train schedule application that incorporates Firebase to host arrival and departure data. It retrieves and manipulates this information with Moment.js. This website provides up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.</p>
+                            <h9>Technologies Used</h9>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                                <li>Firebase</li>
+                                <li>Moment.js</li>
+                                <li>Javascript</li>
+                                <li>JQuery</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <a class="text-secondary" href="https://github.com/aanielson/Train-Scheduler">
+                                <i class="fa fa-github fa-3x"></i>
+                            </a>
+                            <a href="https://aanielson.github.io/Train-Scheduler/" class="project-link btn">Go to project!</a>
+                            <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Group project modal-->
+            <div id="myGroupProject1" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <!--Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5>Hike & Forage Utah</h5>
+                        </div>
+                        <div class="modal-body">
+                            <p>This was an important step in my full-stack journey as I used all the skills and knowledge from the first third of my bootcamp to work with a group to build web application from scratch. With my team, I conceived and executed a design that solves a real-world problem by integrating data received from multiple server-side API requests. Because we worked collaboratively, we practiced agile development methodologies and implemented feature and bug fixes using the git branch workflow and pull requests.</p>
+                            <p>My role was integrating data received from multiple server-side API requests into user-friendly formats while other teammates focused on front-end styling.</p>
+                            <p>Our website was awarded “Most Overall Original Concept” for connecting users with hikes to forage plants.</p>
+                            <h9>Technologies Used</h9>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                                <li>AJAX</li>
+                                <li>Javascript</li>
+                                <li>JQuery</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <a class="text-secondary" href="https://github.com/lindseypaluso/hikeandforageapp/">
+                                <i class="fa fa-github fa-3x"></i>
+                            </a>
+                            <a href="https://lindseypaluso.github.io/project1/index.html" class="project-link btn">Go to project!</a>
+                            <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--LiriBot modal-->
+            <div id="myLiriBot" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <!--Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5>LiriBot</h5>
+                        </div>
+                        <div class="modal-body">
+                            <p>LIRI is a command line node app that takes in parameters and gives back data – similar to Apple's SIRI! This project's comands focus on songs, musicians, and concerts</p>
+                            <h9>Technologies Used</h9>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>Node</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <a class="text-secondary btn btn-social-icon btn-github" href="https://github.com/aanielson/liri-node-app">
+                                <i class="fa fa-github fa-3x"></i>
+                            </a>
+                            <a href="https://youtu.be/gcZITZZOf_Q" class="project-link btn">See project!</a>
+                            <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--LiriBot modal-->
+            <div id="myBamazon" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <!--Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5>Bamazon</h5>
+                        </div>
+                        <div class="modal-body">
+                            <p>In this app, I created an Amazon-like storefront. The app takes in orders from "customers" and depletes stock from the store's inventory.</p>
+                            <h9>Technologies Used</h9>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>Node</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <a class="text-secondary btn btn-social-icon btn-github" href="https://github.com/aanielson/bamazonp">
+                                <i class="fa fa-github fa-3x"></i>
+                            </a>
+                            <a href="https://youtu.be/Ym6n_Op2qH4" class="project-link btn">See project!</a>
+                            <button type="button" class="btn" id="modal-button" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--contact section-->
+    <div id="contact" class="grey-back">
+        <div class="main container">
+            <h3 class="text-white">Get In Touch</h3>
+            <div class="row">
+                <div class="col-md-8">
+                    <form class="contact-form" action="mailto:aa.nielson18@gmail.com" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" name="message" required></textarea>
+                        </div>
+                        <input class="contact-btn main-btn" type="submit" value="Send Message">
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-boxes">
+                        <div class="contact-box">
+                            <span class="icon-box"><i class="fa fa-map-marker"></i></span>
+                            <h5 class="title-box">Location</h5>
+                            <div class="content-box">
+                                <p>Orem, Utah</p>
+                            </div>
+                        </div>
+                        <div class="contact-box">
+                            <span class="icon-box"><i class="fa fa-envelope"></i></span>
+                            <h5 class="title-box">Email</h5>
+                            <div class="content-box">
+                                <p>aa.nielson18@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-box">
+                            <span class="icon-box"><i class="fa fa-phone"></i></span>
+                            <h5 class="title-box">Phone</h5>
+                            <div class="content-box">
+                                <p>480 524-7500</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--==================Footer with professional links==================-->
+    <footer >
+        <ul class="nav navbar-fixed-bottom justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/aanielson">
+                    <i class="fa fa-git-square text-white"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/abigail-nielson-16681919b/">
+                    <i class="fa fa-linkedin-square text-white"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/abbyfunkalicious">
+                    <i class="fa fa-facebook-official text-white"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/abbyanne18/">
+                    <i class="fa fa-instagram text-white"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <!--JS links to jQuery, bootstrap, and personal-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+    <script src="assets/javascript/portfolio.js"></script>
+</body>
+</html>

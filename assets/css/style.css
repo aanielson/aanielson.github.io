@@ -1,0 +1,264 @@
+/*CSS rules for google fonts*/
+/*
+font-family: 'Playfair Display', serif; 
+    styles: regular, medium, black
+font-family: 'League Script', cursive;
+font-family: 'Raleway', sans-serif;
+    styles: extra light, light, regular, italic
+*/
+
+/*==================background, header/footer/nav display==================*/
+#home {
+    background-image: url(../images/minimal.png);
+    width: 100%;
+    min-height: 600px;
+    box-shadow: 3px 3px 5px #193829;
+    background-size: cover;
+}
+.black-back {
+    background-color: #1E2425;
+    width: 100%;
+    min-height: 280px;
+    box-shadow: 3px black;
+    padding-top: 70px;
+}
+.grey-back {
+    background-color: #343B3C;
+    width: 100%;
+    min-height: 280px;
+    box-shadow: 10px 3px 10px black;
+    padding-top: 70px;
+}
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 40px;
+}
+nav {
+    background-color: #511D47;
+    box-shadow: 3px  3px 3px black;
+}
+.main {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+/*==================Section Styling==================*/
+/*about section*/
+.about-image {
+    padding-bottom: 30px;
+}
+.skills-1 {
+    background-color: #343B3C;
+    padding: 24px;
+    border: none;
+    border-radius: 18px;
+    outline: none;
+    box-shadow: 3px 2px 3px black;
+}
+.skills-inner {
+    text-align: center;
+}
+/*resume section*/
+.experience {
+    background-color: #511D47;
+    padding: 24px;
+    border: none;
+    border-radius: 18px;
+    outline: none;
+    min-height: 100px;
+    margin-bottom: 30px;
+    box-shadow: 3px 2px 3px black;
+    font-size: 10pt;
+}
+.employment {
+    margin-bottom: 60px;
+}
+.education {
+    margin-bottom: 60px;
+}
+/*Contact Me Section*/
+.contact-form {
+    background-color: #1E2425;
+    color: #fff;
+    box-shadow: 0px 0px 10px black;
+    outline: none;
+    box-shadow: none;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.form-control {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, .4);
+    outline: none;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+.textarea {
+    overflow: auto;
+    resize: vertical;
+    box-sizing: border-box;
+    text-rendering: auto;
+    text-align: start;
+}
+.contact-box {
+    position: relative;
+    text-align: center;
+    padding: 10px 5px 5px;
+    margin-bottom: 17.5px;
+    background-color: #1E2425;
+    color: #fff;
+    box-sizing: border-box;
+    display: block;
+}
+.icon-box {
+    background-color: #FFCB3A;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #fff;
+}
+.skills-2 {
+    display: none;
+    background-color: #343B3C;
+    padding: 24px;
+    border: none;
+    border-radius: 18px;
+    outline: none;
+    box-shadow: 3px 2px 3px black;
+}
+/*==================Text Styling==================*/
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 72pt;
+}
+h3 {
+    font-family: 'Playfair Display', serif; 
+    font-size: 30pt;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: solid #FFCB3A;
+}
+h4 {
+    font-size: 16pt;
+    color: #FFCB3A;
+}
+h5 {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 22pt;
+}
+h6 {
+    font-size: 14pt;
+    font-weight: bold;
+}
+h7 {
+    font-size: 14pt;
+}
+h8 {
+    font-size: 12pt;
+    font-style: italic;
+}
+h9 {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 14pt;
+}
+.experience-details {
+    text-align: right;
+}
+#brand-statement {
+    margin-bottom: 30px;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+.main-btn {
+    background: #FFCB3A;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    min-width: 155px;
+    padding: 14px 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    border: none;
+    border-radius: 24px;
+    outline: none;
+    transition: all .4s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*==================Modal styling==================*/
+.item-title {
+    color: #fff;
+    background-color: #511D47;    
+    box-shadow: 3px 2px 3px black;
+}
+.portfolio-modal {
+    cursor: pointer;
+}
+#modal-button {
+    color: #fff;
+    background-color: #FF4F61;
+    font-size: 14pt;
+}
+.modal-body {
+    color: black;
+}
+.project-link {
+    background-color: #FFCB3A;
+    font-weight: bold;
+    font-size: 14pt;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+/*==================Manual Media Queries==================*/
+@media screen and (max-width: 980px) {
+    h4 {
+        font-size: 11pt;
+    }
+    .skills-1 {
+        padding: 10px;
+        padding-right: 30px;
+    }
+    .skills-inner {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 1175px) {
+    .skills-1 {
+        display: none;
+    }
+    .skills-2 {
+        display: inherit;
+
+    }
+}
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 640px) {
+    
+}
+
+/*Have two different displays at the different sizes*/
+/*Have the technical skills display: none at larger and switch to display: */
