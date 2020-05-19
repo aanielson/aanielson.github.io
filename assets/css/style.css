@@ -123,14 +123,34 @@ nav {
     left: 10px;
     width: 30px;
     height: 30px;
-    line-height: 35px;
+    line-height: 30px;
     text-align: center;
     border-radius: 50%;
     font-size: 18px;
     color: #fff;
 }
+.resume-icon {
+    background-color: #FFCB3A;
+    top: 50px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+}
 .skills-2 {
     display: none;
+    background-color: #343B3C;
+    padding: 24px;
+    border: none;
+    border-radius: 18px;
+    outline: none;
+    box-shadow: 3px 2px 3px black;
+}
+.skills-3 {
     background-color: #343B3C;
     padding: 24px;
     border: none;
@@ -213,6 +233,9 @@ body {
 .portfolio-modal {
     cursor: pointer;
 }
+.portfolio-img {
+    box-shadow: 3px 0px 3px black;
+}
 #modal-button {
     color: #fff;
     background-color: #FF4F61;
@@ -251,6 +274,12 @@ body {
         display: inherit;
 
     }
+    /* .collapsed-navbar {
+        display: inherit;
+    }
+    .expanded-navbar {
+        display: none;
+    }   */
 }
 @media screen and (max-width: 768px) {
     
